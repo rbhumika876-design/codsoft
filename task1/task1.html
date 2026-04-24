@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PORTFOLIO</title>
+  <style>
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: beige;
+        color: rgb(9, 9, 9);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #0e212d;
+      padding: 10px 30px;
+      color: rgb(241, 241, 233);
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #6a7721;
+    }
+#Skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#Skills li {
+  background-color:#d3dce9;
+  color: #140601;
+  padding: 8px 15px;
+   border-radius: 20px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+#Skills li:hover {
+  background-color: #9b9c94;
+  transform: scale(1.05);
+}
+#Project ul {
+  list-style: none;
+  padding: 0;
+}
+
+#Project li {
+  background-color:white;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+#Project li:hover {
+  transform: translateX(5px);
+  background: #f0f0f0;
+}
+    section {
+      padding: 10px 20px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #140601;
+      font-size: 35px;
+       margin-top: 0px;
+    }
+    .about-container img{
+    width:250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px; 
+}
+a{
+    color: #140601;
+}
+    footer {
+      text-align: center;
+      background-color: #0b0a28;
+      padding: 10px;
+      color: antiquewhite;
+    }
+.hero {
+  display: flex;               
+  align-items: center;          
+  justify-content: space-between; 
+  background: linear-gradient(to right, #192b44, #1e3a5f);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero-content {
+  max-width: 60%;               
+}
+
+.hero-image img {
+  width: 200px;
+  height:300px;           
+}
+  </style>
+</head>
+<body>
+<header>
+    <h1 id="Home">BHUMIKA ROMPALLI</h1>
+
+    <nav>
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Project">Projects</a>
+      <a href="#Resume">Resume</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+</header>
+<section id="About">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm Bhumika Rompalli</h1>
+        <p>Hello! I am a Computer Science student with a strong interest in coding, problem solving, and web development.</p>
+        <p>I enjoy exploring new technologies and building projects that enhance my creativity.</p>
+        <p>I am always eager to learn and grow as a developer.</p>
+      </div>
+      <div class="hero-image">
+        <img src="profile.jpg" alt="My Photo">
+      </div>
+    </section>
+  </div>
+</section>
+<section id="Skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Python programming</li>
+        <li>Java</li>
+        <li>C programming</li>
+        <li>HTML & CSS</li>
+        <li>Data structure Algorithm</li>
+        <li>Database Management System</li>
+    </ul>
+</section>
+<section id="Project">
+    <h2>Projects</h2>
+    <ul>
+        <li>Portfolio Website</li>
+        <li>Landing Page</li>
+        <li>Calculator</li>
+    </ul>
+</section>
+<section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download Resume</a>
+</section>
+<section id="Contact">
+    <h2>Contact</h2>
+    <p>Email: rbhumika818@gmail.com</p>
+    <p>Phone: 7780649995</p>
+</section>
+<footer>
+    <p>© 2026 Bhumika Rompalli. All rights reserved.</p>
+</footer>
+</body>
+</html>
